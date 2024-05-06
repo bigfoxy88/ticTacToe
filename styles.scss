@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    width:100vw;
+    background-image:radial-gradient(teal,grey);
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   
+    
+}
+.row{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border:1px solid black;
+}
+.reset{
+    text-align:center
+}
+p{text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{background-color: whitesmoke;
+padding: 5px;
+margin: 10px;
+}
